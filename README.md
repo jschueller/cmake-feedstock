@@ -9,6 +9,10 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cmake-feedstock
 
 Summary: CMake is an extensible, open-source system that manages the build process
 
+Development: https://gitlab.kitware.com/cmake/cmake
+
+Documentation: https://cmake.org/documentation
+
 Current build status
 ====================
 
