@@ -23,6 +23,6 @@ cmake -LAH -G"NMake Makefiles"                               ^
     -DCMAKE_INSTALL_PREFIX="%LIBRARY_PREFIX%" ..
 if errorlevel 1 exit 1
 
-cmake --build . --config %CMAKE_CONFIG% --target install
+cmake --build . --config %CMAKE_CONFIG% --target install -v
 if errorlevel 1 exit 1
 
