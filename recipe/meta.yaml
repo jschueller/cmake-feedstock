@@ -1,4 +1,4 @@
-{% set version = "3.21.3" %}
+{% set version = "3.22.2" %}
 
 package:
   name: cmake
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/Kitware/CMake/releases/download/v{{ version }}/cmake-{{ version }}.tar.gz
-  sha256: d14d06df4265134ee42c4d50f5a60cb8b471b7b6a47da8e5d914d49dd783794f
+  sha256: 3c1c478b9650b107d452c5bd545c72e2fad4e37c09b89a1984b9a2f46df6aced
   # Not until Python 3.8 on Windows: https://github.com/WorksApplications/SudachiPy/issues/107#issuecomment-564510365
   # path: 'C:/opt/Shared.local/src/cmake'
   # path_via_symlink: True
@@ -80,6 +80,8 @@ about:
     - Utilities/cmlibarchive/COPYING
     - Utilities/cmjsoncpp/LICENSE
   summary: CMake is an extensible, open-source system that manages the build process
+  doc_url: https://cmake.org/documentation
+  dev_url: https://gitlab.kitware.com/cmake/cmake
 
 extra:
   recipe-maintainers:
