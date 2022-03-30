@@ -17,7 +17,7 @@ source:
   #   - patches/git/0001-Add-more-debug-logging-to-cmFindCommon.patch
 
 build:
-  number: 0
+  number: 1
   ignore_run_exports:
     - vc
 
@@ -62,7 +62,7 @@ test:
     - cmake -V -P SSLTest.cmake
     - ctest --version
     - cpack --version
-    - ccmake --version  # [unix]
+    - ccmake --version
 
 about:
   home: http://www.cmake.org/
@@ -77,6 +77,8 @@ about:
     - Utilities/cmzlib/Copyright.txt    # [win]
     - Utilities/cmlibuv/LICENSE         # [win]
     - Utilities/cmlibrhash/COPYING      # [win]
+    - Utilities/cmpdcurses/README.md    # [win]
+    - Utilities/cmpdcurses/wincon/README.md  # [win]
     - Utilities/cmlibarchive/COPYING
     - Utilities/cmjsoncpp/LICENSE
   summary: CMake is an extensible, open-source system that manages the build process
