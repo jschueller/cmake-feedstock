@@ -9,7 +9,7 @@ source:
   sha256: 0a905ca8635ca81aa152e123bdde7e54cbe764fdd9a70d62af44cad8b92967af
 
 build:
-  number: 0
+  number: 1
   ignore_run_exports:
     - vc
 
@@ -21,26 +21,26 @@ requirements:
     - ninja
 
   host:
-    - bzip2           # [unix]
-    - libcurl         # [unix]
-    - expat           # [unix]
-    - ncurses         # [unix]
-    - xz              # [unix]
-    - zlib            # [unix]
-    - libuv           # [unix]
-    - rhash           # [unix]
-    - zstd            # [unix]
+    - bzip2
+    - libcurl
+    - expat
+    - ncurses  # [unix]
+    - xz
+    - zlib
+    - libuv
+    - rhash  # [unix]
+    - zstd
 
   run:
-    - bzip2           # [unix]
-    - libcurl         # [unix]
-    - expat           # [unix]
-    - ncurses         # [unix]
-    - xz              # [unix]
-    - zlib            # [unix]
-    - libuv           # [unix]
-    - rhash           # [unix]
-    - zstd            # [unix]
+    - bzip2
+    - libcurl
+    - expat
+    - ncurses  # [unix]
+    - xz
+    - zlib
+    - libuv
+    - rhash  # [unix]
+    - zstd
     - vs2015_runtime  # [win]
 
 test:
@@ -59,16 +59,10 @@ about:
   license_family: BSD
   license_file:
     - Copyright.txt
-    - Utilities/cmbzip2/LICENSE         # [win]
-    - Utilities/cmcppdap/LICENSE
-    - Utilities/cmcurl/COPYING          # [win]
-    - Utilities/cmexpat/COPYING         # [win]
-    - Utilities/cmliblzma/COPYING       # [win]
-    - Utilities/cmzlib/Copyright.txt    # [win]
-    - Utilities/cmlibuv/LICENSE         # [win]
     - Utilities/cmlibrhash/COPYING      # [win]
     - Utilities/cmpdcurses/README.md    # [win]
     - Utilities/cmpdcurses/wincon/README.md  # [win]
+    - Utilities/cmcppdap/LICENSE
     - Utilities/cmlibarchive/COPYING
     - Utilities/cmjsoncpp/LICENSE
   summary: CMake is an extensible, open-source system that manages the build process
