@@ -60,6 +60,7 @@ about:
   license_file:
     - Copyright.txt
     - Utilities/cmbzip2/LICENSE         # [win]
+    - Utilities/cmcppdap/LICENSE
     - Utilities/cmcurl/COPYING          # [win]
     - Utilities/cmexpat/COPYING         # [win]
     - Utilities/cmliblzma/COPYING       # [win]
