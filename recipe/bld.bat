@@ -21,7 +21,6 @@ cmake -LAH -G Ninja                                          ^
     -DCMAKE_USE_SYSTEM_LIBRARY_LIBRHASH=OFF                  ^
     -DCMAKE_USE_SYSTEM_LIBUV=OFF                             ^
     -DCMAKE_USE_SYSTEM_LIBRARY_LIBUV=OFF                     ^
-    -DCMake_HAVE_CXX_MAKE_UNIQUE:INTERNAL=TRUE               ^
     -DCURL_USE_SCHANNEL:BOOL=ON                              ^
     -DCURL_WINDOWS_SSPI:BOOL=ON                              ^
     -DBUILD_CursesDialog:BOOL=ON                             ^

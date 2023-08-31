@@ -23,7 +23,6 @@ cmake -LAH -G Ninja ${CMAKE_ARGS} \
     -DCMAKE_USE_SYSTEM_LIBRARY_LIBARCHIVE=OFF \
     -DCMAKE_USE_SYSTEM_LIBRARY_CPPDAP=OFF \
     -DBUILD_QtDialog=OFF \
-    -DCMake_HAVE_CXX_MAKE_UNIQUE:INTERNAL=FALSE \
     . || (cat TryRunResults.cmake; false)
 
 cmake --build . --target install --parallel ${CPU_COUNT}
