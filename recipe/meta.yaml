@@ -9,7 +9,7 @@ source:
   sha256: 0a905ca8635ca81aa152e123bdde7e54cbe764fdd9a70d62af44cad8b92967af
 
 build:
-  number: 1
+  number: 2
   ignore_run_exports:
     - vc
 
@@ -27,7 +27,7 @@ requirements:
     - ncurses  # [unix]
     - xz
     - zlib
-    - libuv
+    - libuv  # [unix]
     - rhash  # [unix]
     - zstd
 
@@ -38,7 +38,7 @@ requirements:
     - ncurses  # [unix]
     - xz
     - zlib
-    - libuv
+    - libuv  # [unix]
     - rhash  # [unix]
     - zstd
     - vs2015_runtime  # [win]
